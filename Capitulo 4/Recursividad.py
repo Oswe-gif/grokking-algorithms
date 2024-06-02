@@ -1,3 +1,5 @@
+
+#4.1
 lista1 = [1,2,2]
 #función para sumar elementos de un array sin bucles.
 def suma(array):
@@ -9,7 +11,8 @@ def suma(array):
         #continua el bucle
         total += array.pop(0)
         return total + suma(array)
-        
+
+#4.2
 lista2 = [2,1,3]
 #función para contar elementos de un array sin bucles.
 def contarElementos(array):
@@ -21,7 +24,8 @@ def contarElementos(array):
         #continua el bucle
         array.pop(0)
         return total + contar(array)
-    
+
+#4.3  
 lista3 = [2,1,3]
 #función para encontrar el maximo de un array sin bucles.
 def maximo(array):
